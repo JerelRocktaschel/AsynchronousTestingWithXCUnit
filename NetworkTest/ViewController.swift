@@ -11,10 +11,16 @@ import UIKit
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
+        //call getToDo
+        let networkManager = NetworkManager()
+        networkManager.getToDo { toDo, error in
+            guard let toDo = toDo else {
+                return
+            }
+            print(toDo.title)
+        }
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
 }
 

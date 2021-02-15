@@ -14,6 +14,7 @@
 		D87554EA25D60E6F0091780F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D87554E925D60E6F0091780F /* Assets.xcassets */; };
 		D87554ED25D60E6F0091780F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D87554EB25D60E6F0091780F /* LaunchScreen.storyboard */; };
 		D87554F825D60E6F0091780F /* NetworkTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87554F725D60E6F0091780F /* NetworkTestTests.swift */; };
+		D875550325D60E900091780F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D875550225D60E900091780F /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		D87554F325D60E6F0091780F /* NetworkTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D87554F725D60E6F0091780F /* NetworkTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTestTests.swift; sourceTree = "<group>"; };
 		D87554F925D60E6F0091780F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D875550225D60E900091780F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				D87554E025D60E690091780F /* AppDelegate.swift */,
 				D87554E225D60E690091780F /* SceneDelegate.swift */,
+				D875550225D60E900091780F /* NetworkManager.swift */,
 				D87554E425D60E690091780F /* ViewController.swift */,
 				D87554E625D60E690091780F /* Main.storyboard */,
 				D87554E925D60E6F0091780F /* Assets.xcassets */,
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D875550325D60E900091780F /* NetworkManager.swift in Sources */,
 				D87554E525D60E690091780F /* ViewController.swift in Sources */,
 				D87554E125D60E690091780F /* AppDelegate.swift in Sources */,
 				D87554E325D60E690091780F /* SceneDelegate.swift in Sources */,
